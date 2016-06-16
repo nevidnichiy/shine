@@ -12,6 +12,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise'
 gem 'bower-rails'
 gem 'faker'
+gem 'angular-rails-templates'
+gem 'sprockets', '= 2.10.0'
 
 group :development, :test do
   gem 'byebug'
@@ -21,3 +23,6 @@ group :development do
   gem 'web-console', '~> 2.0'
 end
 
+group :test do
+  gem 'rspec-rails', '~> 3.0'
+end
